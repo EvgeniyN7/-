@@ -206,7 +206,6 @@ ul {
 
 .services {
   margin: 100px auto;
-  padding-left: 50px;
   padding: 50px;
   max-width: 1600px;
   display: flex;
@@ -261,7 +260,7 @@ ul {
 .service_description::before {
   content: "";
   margin-left: -12px;
-  margin-right: 5px;
+  margin-right: 10px;
   display: inline-block;
   width: 3px;
   height: 3px;
@@ -291,6 +290,8 @@ ul {
 @media screen and (max-width: 1155px) and (min-width: 630px) {
   .services {
     flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 80px;
   }
 
   .service_item {
@@ -306,6 +307,7 @@ ul {
 
   .service_img {
     margin: 0 50px 0 0;
+    max-width: 260px;
     width: 30%;
     height: 100%;
   }
@@ -319,8 +321,8 @@ ul {
 
 @media screen and (max-width: 740px) {
   .services {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 65px;
+    margin-bottom: 65px;
   }
 }
 
@@ -345,7 +347,6 @@ ul {
     align-items: center;
     margin: 0 0 100px;
     width: 100%;
-    padding: 0 30px;
   }
 
   .service_item:last-child {
@@ -375,8 +376,8 @@ ul {
 
 @media screen and (max-width: 440px) {
   .services {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 
@@ -450,6 +451,10 @@ ul {
 }
 
 @media screen and (max-width: 610px) {
+  .services {
+    padding: 35px;
+  }
+
   .contacts {
     flex-direction: column;
   }
@@ -463,6 +468,10 @@ ul {
 }
 
 @media screen and (max-width: 480px) {
+  .services {
+    padding: 30px;
+  }
+
   .footer {
     padding-left: 20px;
     padding-right: 15px;
