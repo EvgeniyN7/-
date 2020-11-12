@@ -91,7 +91,7 @@ ul {
 .title_item::before {
   content: "";
   position: absolute;
-  top: 25px;
+  top: 32px;
   background-color: #ffd4ad;
   width: 7px;
   height: 7px;
@@ -128,6 +128,9 @@ ul {
   .subtitle {
     font-size: 19px;
   }
+  .title_item::before {
+    top: 25px;
+  }
 }
 
 @media screen and (max-width: 860px) {
@@ -147,6 +150,10 @@ ul {
 
   .subtitle {
     font-size: 16px;
+  }
+
+  .title_item::before {
+    top: 20px;
   }
 
   .line {
@@ -176,12 +183,22 @@ ul {
     font-size: 25px;
   }
 
+  .title_item p {
+    margin-left: 15px;
+  }
+
   .subtitle {
     font-size: 14px;
   }
 
   .line {
     margin: 20px 0;
+  }
+  .title_item::before {
+    top: 14px;
+    width: 5px;
+    height: 5px;
+    margin-right: 0px;
   }
 }
 
